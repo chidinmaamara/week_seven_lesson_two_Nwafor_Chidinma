@@ -1,3 +1,10 @@
 /*Queries that provide answers to the questions from all projects.*/
 
-SELECT * from animals WHERE name = 'Luna';
+SELECT * FROM users WHERE age > 25 AND name LIKE 'f%' ;
+
+
+SELECT * FROM users ORDER BY age ASC ;
+
+SELECT COUNT (*) FROM users ;
+
+SELECT COUNT(*) FROM users WHERE age  > 18 AND age < 40 ;
